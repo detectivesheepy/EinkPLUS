@@ -87,8 +87,8 @@ void commandSelect(String command) {
     oledWord("That smells");
     delay(1000);
   } 
-  else if (command == "poop") {
-    oledWord("Yuck");
+  else if (command == "why") {
+    oledWord("why not?");
     delay(1000);
   } 
   else if (command == "hello") {
@@ -108,11 +108,11 @@ void commandSelect(String command) {
     delay(1000);
   } 
   else if (command == "alexa") {
-    oledWord("...");
+    oledWord("... go away");
     delay(1000);
   } 
   else {
-    oledWord("Huh?");
+    oledWord("wut");
     delay(1000);
   }
 }
